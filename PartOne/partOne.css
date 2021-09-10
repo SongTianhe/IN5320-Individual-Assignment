@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(197, 217, 218);
+}
+
+h1,h2,h4{
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    padding: 0.5rem;
+}
+
+header{
+    background-color: rgb(95, 158, 160);
+    padding: 5px;
+    box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+header .picAndLink{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+header a {
+    padding: 1rem;
+    font-size: 30px;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+header img{
+    padding: 0 2rem 0 2rem;
+}
+
+.fa-linkedin-in {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background-color: #333;
+    color: white;
+}
+
+header a:hover {
+    color: white;
+    background-color: slategrey;
+}
+
+.project{
+    flex-grow: 2;
+    background-color: white;
+    box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 0.5rem 0 5rem 0;
+    margin-top: 2rem;
+}
+
+.project h2{
+    font-size: 25px;
+    padding-bottom: 0.5rem;
+}
+
+.contentPro {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+
+.pro {
+    width: 20rem;
+    border: outset grey;
+    border-radius: 15px;
+    margin: 1rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.workEx{
+    flex-grow: 2;
+    background-color: white;
+    box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 0.5rem 0 5rem 0;
+    margin-top: 2rem;
+}
+
+.workEx h2{
+    font-size: 25px;
+    padding-bottom: 0.5rem;
+}
+
+.contentWork {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+
+.work {
+    width: 20rem;
+    border: outset grey;
+    border-radius: 15px;
+    margin: 1rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+@media screen and (min-width: 640px) {
+    .wrapper{
+        padding: 0% 10% 2% 10%;
+    }
+
+    .pro {
+        width: 15rem;
+    }
+
+    header .picAndLink{
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .wrapper{
+        padding: 1rem 10rem 2rem 10rem;
+    }
+
+    .pro {
+        width: 20rem;
+    }
+}
